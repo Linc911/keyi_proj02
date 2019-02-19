@@ -1,0 +1,45 @@
+// Default Global Setting
+html, body, #app {
+  height: 100%;
+}
+body {
+  font: 12px/1.5 "Microsoft YaHei",tahoma,arial,Hiragino Sans GB,sans-serif;
+}
+*  {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+p {
+  margin: 0;
+}
+ul, ol {
+  list-style-type: none;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+/* vue-context-menu plugin */
+.ctx-menu-container {
+  width: 0;
+  height: 0;
+}
+.ctx-menu-container .ctx-menu {
+  width: 130px;
+  min-width: auto;
+}
+.context-menu-item {
+  padding-left: 15px !important;
+  text-align: left !important;
+}
+
+/* vue-quill-editor plugin */
+.ql-editor {
+  min-height: 200px;
+  max-height: 360px;
+}

@@ -1,0 +1,13 @@
+.clearfix::before,
+.clearfix::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+
+.custom-block {
+  width: 100% !important;
+}

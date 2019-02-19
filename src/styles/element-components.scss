@@ -1,0 +1,78 @@
+/*
+ * Override ElementUI Default Components Styles
+ */
+ @import './variables.scss';
+ 
+@media only screen and (max-width: 1399px) {
+  .hidden-xl-and-down {
+    display: none !important;
+  }
+}
+/* input 组件 */
+// 设置属性 disabled 时
+.el-input.is-disabled .el-input__inner {
+  color: #999;
+}
+
+/* button 组件 */
+// mini button
+.el-button--mini {
+  padding: 7px 7px;
+}
+
+/* card 组件 */
+// 头部标题
+.el-card__header {
+  color: #333;
+  font-size: 14px;
+  padding: 12px 20px;
+}
+
+/* pagination 组件 */
+.el-pagination {
+  margin-top: 20px;
+  text-align: right;
+}
+
+/* menu 组件 */
+.el-menu {
+  border-right: none;
+}
+
+/* datapicker 组件 */
+.el-date-editor .el-range-separator {
+  min-width: 18px;
+}
+
+/* breadcrumb 组件 */
+.el-breadcrumb__inner.is-link {
+  color: #189F92;
+  cursor: pointer;
+}
+
+/* popover 组件 */
+.el-popover {
+  // width: 60% !important;
+  max-height: 80%;
+  overflow-y: scroll;
+}
+
+/* table 组件 */
+.el-table .warning-row {
+  color: #f56c6c;
+}
+.el-table .success-row {
+  color: #4d9728
+}
+.el-table--striped .el-table__body tr.el-table__row--striped td {
+  background: #f0f9eb;
+}
+
+
+/* DateTimePicker(range) 组件 */
+.el-date-editor--datetimerange.el-input__inner {
+  width: 340px;
+}
+.el-date-editor .el-range-separator {
+  margin: 0 6px;
+}
